@@ -1,0 +1,33 @@
+Pseudocode run through of core game play loop
+
+Get player info
+
+Read in all necessary files
+
+Set round totals to zero
+Pick first player
+Start first round loop
+    display round totals so far
+    start turn loop of player
+        ask for choice of spin, buy, or guess
+        perform the necessary actions, update round total for player
+        check if turn continues, if not break turn loop
+    
+    check if round has been won or not
+        if so update bank totals and break loop
+    
+    pass to next player
+
+Set round total to zero
+Pick next player
+Start 2nd round loop
+    Same internal logic as above
+
+Find the player with the highest game total, pull into final round
+Reveal default letters
+Ask for 3 consonants and 1 vowel
+Get player's final guess
+    if right display cash prize
+    else thank for playing
+
+Game over
